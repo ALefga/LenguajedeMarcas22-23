@@ -1,0 +1,17 @@
+<?xml version= "1.0" encoding= "utf-8"?>
+<!DOCTYPE biblioteca>
+<biblioteca>
+    <ejemplar>
+        <titulo>El imperio final</titulo>
+        <Autor>Brandon Sanderson</Autor>
+        <fecha>2015</fecha>
+        <pagina>200</pagina>
+    </ejemplar>
+    <ejemplar>
+        <titulo>mario</titulo>
+        <Autor>juan</Autor>
+        <fecha>2010</fecha>
+        <pagina>153</pagina>
+
+    </ejemplar>
+</biblioteca>
