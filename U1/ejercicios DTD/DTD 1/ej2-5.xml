@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE spanishKings [
- <!ELEMENT spanishKings (king*, queen*)>
+ <!ELEMENT spanishKings (king | queen)+>
  <!ELEMENT king (name, father, mother)>
  <!ELEMENT name (#PCDATA)>
  <!ELEMENT father (#PCDATA)>
  <!ELEMENT mother (#PCDATA)>
-]>
+ <!ELEMENT queen (name, father, mother)>
+ ]>
 <spanishKings>
     <king>
         <name>Felipe III</name>
