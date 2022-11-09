@@ -3,7 +3,14 @@
     <xs:element name="precios">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="precio" maxOccurs="unbounded" type="xs:string" />
+                <xs:element name="precio" maxOccurs="unbounded">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:decimal">
+                            <xs:totalDigits value="3"></xs:totalDigits>
+                            <xs:fractionDigits value="2"></xs:fractionDigits>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
