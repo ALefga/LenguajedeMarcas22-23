@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE libro SYSTEM "ej2.dtd">
 <libro catalogo="xd">
-    <titulo>manzana</titulo>
-    <Seccion>jlma</Seccion>
-    <SubSeccion>delantero</SubSeccion>
-    <contenido>
-        <capitulo materia="XML">
-            <tema>uceu</tema>
-        </capitulo>
-        <separacion></separacion>
-        <capitulo materia=>
-            <tema>uceu</tema>
-        </capitulo>
-    </contenido>
-    <contenido>
-        <capitulo materia="XML">
-            <tema>uceu</tema>
-        </capitulo>
-    </contenido>
-    <Copyright>marmota</Copyright>
+    <titulo></titulo>
 </libro>
