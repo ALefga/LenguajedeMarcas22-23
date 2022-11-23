@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+    <style>
+        td,th{
+            border: 2px solid chocolate;
+            border-color: blue;
+            border-width: 2px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <!--tabla>(tr>th*5)+tr*4>td*5-->
+    <table>
+        <caption style="border: 1px deshed red;"></caption>
+        <tr>
+            <th>nombre</th>
+            <th>apellido</th>
+            <th>direccion</th>
+            <th>telefono</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>pepe</td>
+            <td>fla</td>
+            <td>akcms</td>
+            <td>122</td>
+            <td>mamahuevo@hotmail</td>
+        </tr>
+        <tr>
+            <td>pepe</td>
+            <td>fla</td>
+            <td>akcms</td>
+            <td>122</td>
+            <td>mamahuevo@hotmail</td>
+        </tr>
+        <tr>
+            <td>pepe</td>
+            <td>fla</td>
+            <td>akcms</td>
+            <td>122</td>
+            <td>mamahuevo@hotmail</td>
+        </tr>
+        <tr>
+            <td>pepa</td>
+            <td>flaiter</td>
+            <td>cms</td>
+            <td>122</td>
+            <td>mamahuevo@hotmail</td>
+        </tr>
+    </table>
+    
+    
+
+    <table style="background-color: red; border: 1px solid azure">
+        <caption style="border: 1px deshed fuchsia;">alumnos matriculados</caption>
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellidos</th>
+                <th>direccion</th>
+                <th>telefono</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pepe</td>
+                <td>marquez</td>
+                <td>xd</td>
+                <td>1111</td>
+                <td>mamahuevo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pepe</td>
+                <td>marquez</td>
+                <td>xd</td>
+                <td>1111</td>
+                <td>mamahuevo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pepe</td>
+                <td>marquez</td>
+                <td>xd</td>
+                <td>1111</td>
+                <td>mamahuevo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pepe</td>
+                <td>marquez</td>
+                <td>xd</td>
+                <td>1111</td>
+                <td>mamahuevo@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>pie de tabla donde pongo mas texto para que se vea como crece</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <caption>horario</caption>
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            td,th {
+                border: 1px solid royalblue ;                                                                                                                                                                                               
+            }
+        </style> 
+       <thead>
+        <tr>
+            <th>hora</th>
+            <th>dias</th>
+            <th>dias</th>
+            <th>dias</th>
+            <th>dias</th>
+            <th>dias</th>
+       </thead> 
+        </tr>
+        <tbody>
+            <tr>
+                <td>hora</td>
+                <td rowspan="2">materia</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td colspan="2">materia</td>
+            </tr>
+            <tr>
+                <td>hora</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td>materia</td>
+            </tr>
+            <tr>
+                <td>hora</td>
+                <td colspan="5" style="text-align: center ;">recreo</td>
+            </tr>
+            <tr>
+                <td>hora</td>
+                <td>materia</td>
+                <td rowspan="2">materia</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td>materia</td>
+            </tr>
+            <tr>
+                <td>hora</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td>materia</td>
+                <td>materia</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
