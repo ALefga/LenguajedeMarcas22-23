@@ -1,0 +1,43 @@
+
+    
+
+p{
+    color: cadetblue;
+    font-size: large;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+}
+
+h2{
+    color: rgb(236, 201, 3);
+    font-size: large;
+}
+table, td{
+    border: solid green;
+    border-collapse: collapse;
+}
+thead td{
+    background-color: cornflowerblue;
+}
+
+li>ul{
+    color: blue;
+}
+body>ul>li{
+    color: red;
+}
+br+img{
+    border-color: rgb(174, 0, 255);
+    background-color: gold;
+    margin: 50px;
+}
+img~img{
+    border-style:outset;
+    border-color: hotpink;
+    background-color: rgb(210, 30, 30);
+}
+img[width="350"]{
+ background-color: brown;
+ border-color: darkcyan;
+}
