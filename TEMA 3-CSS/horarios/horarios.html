@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Horarioestilos.css">
+</head>
+<body>
+    <table>
+        <caption><a href="https://drive.google.com/file/d/1CDCiX10X4JP3wgyLFqsh5KBh03pNNdrI/view">horario de clase curso 2018-2019</a></caption> 
+       <thead>
+            <tr>
+                <th>hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <th>8:00</th>
+                <td rowspan="2">Matematicas</td>
+                <td>Lengua</td>
+                <td>Ingles</td>
+                <td colspan="2">Cincias</td>
+            </tr>
+            <tr>
+                <th>9:00</th>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td colspan="5" style="text-align: center ;">recreo</td>
+            </tr>
+            <tr>
+                <th>10:30</th>
+                <td>Ingles</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <th>11:30</th>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Ingles</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <form>
+        <label for="correo">Email</label>
+        <input type="email" name="correo" placeholder="Inserte email del destinatario"><br> <br>
+        <input type="submit" value="Enviar horario"  name="enviar" required>
+    </form>
+</body>
+</html>
