@@ -1,0 +1,35 @@
+body {background-color: tan} :
+cambia de color al fondo, en este caso se esta utilizando para cambiar el del body.
+
+h1 {color:maroon; font-size:20pt}:
+le estamos aplicando un color al h1, y font-size permite cambia el tamaño de letra en este caso a 20pt.
+
+hr {color:navy}:
+le aplicamos color al hr,no fue aplicado.
+
+p {font-size:12pt; margin-left: 15px}:
+con font-size cambiamos el tamaño de letra en este caso a 12pt y con margin-left le estamos cambiando
+el margen del lado izquierdo a 15px, todo esto es aplicado a p.
+
+p.verse {color:maroon; margin-left: 60px}:
+con margin-left le estamos cambiando el margen del lado izquierdo a 60px y con color le aplicamos color,
+todo esto es aplicado a una p de clase "verse".
+
+a:link     {color:green}:
+le aplicamos color verde a un enlase no visitado de "a".
+
+a:visited  {color:yellow}:
+le aplicamos color amarillo a un enlace visitado de "a".
+
+a:hover    {color:black}:
+le aplicamos color negro a un enlace al pasar el ratón por encima de "a"
+
+a:active   {color:blue}:
+
+le aplicamos color azul a un elemento activo de "a"
+
+
+
+
+
+
