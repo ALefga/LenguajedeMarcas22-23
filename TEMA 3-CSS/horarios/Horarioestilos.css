@@ -1,14 +1,17 @@
+a{
+    text-decoration: none;
+}
 a:visited{
-    color: red;
+    color: green;
 }
 a:link{
-    color: green;
+    color: red;
 }
 table,td,th{
     border-collapse: collapse;
     border: solid 1px;
 }
-tbody td:first-child{
+tbody th:first-child{
     background-color: green;
 }
 
@@ -17,4 +20,21 @@ tr:nth-child(3){
 }
 thead th::first-letter{
     font-size: 32px;
+}
+label::after{
+    color:red;
+    content: "*";
+}
+label+input{
+    width: 200px;
+    height: 20px;
+    border: 1px solid red;
+    padding: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+td:last-child:hover, th:last-child:hover{
+    font-size: 30px; 
+    transition: 200ms;
 }

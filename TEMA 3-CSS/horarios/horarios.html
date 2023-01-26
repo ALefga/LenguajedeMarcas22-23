@@ -22,25 +22,25 @@
        </thead>
         <tbody>
             <tr>
-                <td>8:00</td>
+                <th>8:00</th>
                 <td rowspan="2">Matematicas</td>
                 <td>Lengua</td>
                 <td>Ingles</td>
                 <td colspan="2">Cincias</td>
             </tr>
             <tr>
-                <td>9:00</td>
+                <th>9:00</th>
                 <td>Historia</td>
                 <td>Ciencias</td>
                 <td>Matematicas</td>
                 <td>Lengua</td>
             </tr>
             <tr>
-                <td>10:00</td>
+                <th>10:00</th>
                 <td colspan="5" style="text-align: center ;">recreo</td>
             </tr>
             <tr>
-                <td>10:30</td>
+                <th>10:30</th>
                 <td>Ingles</td>
                 <td rowspan="2">Ciencias</td>
                 <td>Matematicas</td>
@@ -48,7 +48,7 @@
                 <td>Historia</td>
             </tr>
             <tr>
-                <td>11:30</td>
+                <th>11:30</th>
                 <td>Historia</td>
                 <td>Ciencias</td>
                 <td>Matematicas</td>
@@ -56,9 +56,12 @@
             </tr>
         </tbody>
     </table>
-    <form methot="post">
-        <p>Email<span>*</span><input type="text" placeholder="Insertar email del destino"></p>
-        <button type="submit">Enviar horaroio</button>
+    <br>
+    <br>
+    <form>
+        <label for="correo">Email</label>
+        <input type="email" name="correo" placeholder="Inserte email del destinatario"><br> <br>
+        <input type="submit" value="Enviar horario"  name="enviar" required>
     </form>
 </body>
 </html>

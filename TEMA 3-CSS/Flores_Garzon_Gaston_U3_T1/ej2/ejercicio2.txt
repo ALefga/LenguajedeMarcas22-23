@@ -1,0 +1,2 @@
+A los primeros 2 parrafos que estan en una "p" les estamos aplicando una clase "verse" 
+con el cual les estamos dando un color.
