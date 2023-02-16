@@ -1,0 +1,62 @@
+H1{
+text-align: center;
+}
+.cabeza{
+height: 60px;
+width: auto;
+background-color: black;
+margin-bottom: 30px;
+}
+header>div{
+    margin-top: 15px;
+}
+aside{
+background-color: black;
+color: white;
+padding: 10px;
+height:500px;
+width: 15%;
+float:left;
+}
+aside>div{
+    margin-bottom: 25px;
+    
+}
+div>p{
+    height: 20px;  
+}
+header>div{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    color: white;
+}
+articulo{
+    border-radius: 11px;
+    text-align: center;
+    border: solid black 1px;
+    width: 25%;
+    float:right;
+}
+.abajo{
+    
+    padding-top: 30px;
+    column-count: 3;
+    column-fill:balance;
+    width: 75%;
+    float: right;
+}
+nav>p{
+    margin-top: 0px;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    width:100% ;
+    float: left;
+}
+img{
+    margin-top: 15px;
+    width: 100px;
+}

@@ -1,0 +1,125 @@
+body{
+    background-image: url(img/step13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*contendor principal*/
+.contenedor{
+    width: 80%;
+    margin: 0px auto;
+}
+/*contenedores de nivel medio*/
+.texto{
+    border: 2px solid white;
+    float: left;
+}
+.social-container{
+    color: white;
+    border: 2px solid white;
+    float: left;
+}
+
+.container_medio{
+    width: 100%;
+    border: 2px solid white;
+    float: left;
+}
+
+.articulo{
+    
+    width: 100%;
+    float: left;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+
+/*estilos nivel interno*/
+
+.social {
+    width: 25px;
+}
+
+.texto_medio{
+    float: left;
+    width: 30%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.texto{
+    width: 77%;
+}
+
+.camara{
+    float:right;
+    width: 60%;
+}
+
+.foto {
+    border: solid 1px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+}
+
+.formulario{
+    border: 1px red solid;
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imgs{
+    padding-right: 40px ;
+    float:right;
+}
+
+.social_text{
+    display: inline-block;
+}
+footer p{
+    margin: 2px;
+}
+
+/*estilos de textos*/
+
+.texto1{
+    color: white;
+    -webkit-transform: rotate(-7deg); 
+      -moz-transform: rotate(-7deg); 
+      -ms-transform: rotate(-7deg); 
+      -o-transform: rotate(-7deg); 
+      transform: rotate(-7deg); 
+}
+.texto2{
+    color: white;
+}
+.texto3{
+    color: white;
+    font-size: 25px;
+}
+.texto4{
+    color: orangered;
+    font-size: 47px;
+}
+.texto5{
+    color: white;
+    font-size: 19px;
+}
+.texto6{
+    color: rgb(160, 151, 151);
+    font-size: 20px;
+}
+.texto7{
+    color: white;
+}

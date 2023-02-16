@@ -1,0 +1,136 @@
+.contenedor{
+    width: 95%;
+    margin: 0px auto;
+    
+}
+.arriba{
+float: left;
+width: 100%;
+background-color: black;
+border-radius: 8px 8px 0px 0px;
+}
+
+.elecciones{
+    float: left;
+    width: 100%;
+    background-color: rgb(117, 151, 117);
+    color: white;
+}
+
+.menu_principal{
+    margin: 10px;
+    float: left;
+    width: 23%;
+}
+
+.contenido{
+    margin: 10px;
+    float: left;
+    width: 48%;
+}
+
+.calendario{
+    margin: 10px;
+    float:left;
+    width: 23%;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer p{
+    margin: 0px;
+    color: white;
+} 
+
+
+.elecciones div{
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.logo{
+    width: 170px;
+    margin-left: 25px;
+}
+
+.patio{
+    width: 550px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 30px;
+}
+
+.arbol{
+    width: 90px;
+}
+.calen{
+    width: 110px ;
+    margin-left: 25px;
+    padding-bottom: 40px;
+}
+
+
+h1{
+    color: white;
+    padding-left:10px ;
+    margin-bottom: 0px;
+}
+ 
+.fondo{
+    background-color: rgb(153, 149, 149);
+    border-radius: 5px;
+    margin-left:40px ;
+    margin-right:40px ;
+}
+.fondo h4{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+}
+.arbol{
+    width: 60px;
+    float:right;
+    position: relative;
+    right: 10px;
+    top: 70px;
+}
+.tex1{
+    color: white;
+    text-align: right;
+    margin-right:10px ;
+    padding-bottom: 20px;
+}
+.categorias{
+    background-color: rgb(153, 149, 149);
+    border-bottom: 2px green solid;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.datos{
+    background-color: rgb(153, 149, 149);
+    border-radius: 5px;
+    border:2px green solid;
+}
+ul li{
+    color: green;
+    list-style: none;
+}
+span{
+    color: black;
+}
+.elecciones div:hover{
+    color: black;
+}
+.elecciones div{
+    transition: 1s;
+}
