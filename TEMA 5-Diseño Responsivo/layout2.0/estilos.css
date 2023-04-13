@@ -3,42 +3,69 @@
     box-sizing: border-box;
 }
 .fond{
-    border-top: solid 2px blue;
+    border-top: solid 2px rgb(19, 71, 129);
     width: 95%;
+    
     margin: 0px auto;
-    background-color: white;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 22%,
+        rgb(19, 71, 129) 22%,
+        rgb(19, 71, 129) 87%,
+        white 87%,
+        white 100%
+    );
 }
 .contenedor{
     width: 90%;
     margin: 0px auto; 
 }
 .top{
-    padding-top: 10px;
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
     justify-content:space-between
+}
+/*letras top*/
+.top div:first-child p{
+    font-family: 'Inconsolata', monospace;
+    font-weight:900;
+    color: rgb(19, 71, 129);
+}
+.top div:first-child p:first-child{
+    font-size: 280%;
+}
+.top div:first-child p:last-child{
+    font-size: 95%;
 }
 
 .top div:last-child{
     display: flex;
+    padding-top: 5px;
 }
 
 /*menu*/
 
 article{
     display: flex;
+    flex-wrap: wrap;
 }
 .banner div{
     font-size: 110%;
     padding: 20px;
     margin-left: 2px;
-    
+    color:gray;
+    font-family: 'Anuphan', sans-serif;
 }
 .banner div:last-child form input{
+    font-family: 'Anuphan', sans-serif;
     text-decoration: none;
     font-size: 110%;
     padding: 10px;
     color: white;
-    background-color: green;
+    background-color: rgb(109, 186, 70);
+    border-color: rgb(109, 186, 70);
     text-align: center;
     border-radius: 5px;
 }
@@ -48,35 +75,68 @@ article{
     width: 50%;
 }
 article div:first-child img{
-   width: 80%; 
+   width: 90%; 
    display:block;
     margin:auto;
 }
 .articulo{
     width: 50%;
-    padding: 40px 0px 0px 0px
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
 }
-article div:last-child div:first-child p:first-child{
-    font-size: 360%;
+.articulo div:first-child p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:x-large;
+}
+.articulo div:first-child p:first-child{
+    font-family: 'Fira Sans', sans-serif;
+}
+.articulo div:first-child P:nth-child(2){
+    font-family: 'Fira Sans', sans-serif;  
 }
 span{
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
+
+article div:last-child div:first-child p:first-child{
+    font-size: 360%;
+}
+
 article div:last-child div:first-child p:nth-child(2){
     font-size: 360%;
 }
 .botones{
+    margin-top: 30px;
     display: flex;
-
-
+    flex-wrap: wrap;
 }
+
 .botones div:first-child form input{
     text-decoration: none;
-    width: 210px;
+    width: auto;
     font-size: 100%;
-    padding: 10px;
+    padding: 20px 45px 20px 45px;
     color: white;
-    background-color: green;
+    background-color: rgb(109, 186, 70);
     text-align: center;
-    border-radius: 5px ;
+    border-color: rgb(109, 186, 70);
+    border-radius: 10px ;
+    margin-right: 20px;
+}
+
+.botones div:last-child form input{
+    text-decoration: none;
+    width: auto;
+    font-size: 95%;
+    padding: 11px 17px 11px 17px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 8px ;
+    margin-top: 8px;
 }
