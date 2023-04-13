@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="img">
+            <picture>
+                <source media="(min-width: 992px)" srcset="img/3.jpg"/>
+    
+                <source media="(min-width: 576px)" srcset="img/2.jpg"/>
+    
+                <source media="(max-width: 575px)"srcset="img/1.jpg"/>
+
+                <img src="img/3.jpg" alt="sevilla">
+            </picture>
+        </div>
+        <div id="red"></div>
+        <div id="pink"></div>
+    </div>
+</body>
+</html>
