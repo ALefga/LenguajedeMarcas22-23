@@ -3,13 +3,17 @@
     box-sizing: border-box;
 }
 .fond{
-    border-top: solid 2px rgb(19, 71, 129);
     width: 95%;
+    border-radius: 25px;
     
     margin: 0px auto;
     background: linear-gradient(
         to bottom,
         white 0%,
+        white 1%,
+        rgb(19, 71, 129) 1%,
+        rgb(19, 71, 129) 1.5%,
+        white 1.5%,
         white 22%,
         rgb(19, 71, 129) 22%,
         rgb(19, 71, 129) 87%,
