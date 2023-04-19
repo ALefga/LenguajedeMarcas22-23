@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    margin: 0 auto;
+    margin: 20px;
+    padding: 25px;
+}
+.contenedor table{
+    width: 800px ;
+    border: black 1px solid;
+    border-collapse:collapse;
+}
+.contenedor th,td{
+    background-color: aquamarine;
+    border: black 1px solid;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .esconder2{
+      display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .esconder1 {
+      display: none;
+    }
+}  
+@media screen and (max-width: 768px) {
+    div.Scroll{
+        overflow-x: auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .Listas,
+    .Listas thead,
+    .Listas tbody,
+    .Listas tr,
+    .Listas th,
+    .Listas td{
+        display: block;
+    }
+}

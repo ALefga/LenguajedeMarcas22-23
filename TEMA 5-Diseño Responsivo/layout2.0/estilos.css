@@ -126,9 +126,8 @@ article div:last-child div:first-child p:nth-child(2){
     font-size: 100%;
     padding: 20px 45px 20px 45px;
     color: white;
-    background-color: rgb(109, 186, 70);
+    background-image:linear-gradient(rgb(109, 186, 70),rgb(10, 64, 39));
     text-align: center;
-    border-color: rgb(109, 186, 70);
     border-radius: 10px ;
     margin-right: 20px;
 }
