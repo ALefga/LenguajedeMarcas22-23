@@ -2,3 +2,59 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.container{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1,h2,h3,h4,p,div{
+    font-family: 'Righteous', cursive;
+}
+.verde{
+    color: green;
+}
+.container header{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-flow: row wrap;
+}
+.container header nav{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+}
+.menu_item{
+    margin-left: 10px;
+}
+main{
+    display: flex;
+    flex-flow: row wrap ;
+    flex-direction:row-reverse;
+    justify-content:flex-end ;
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+.images{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.main_text{
+width: 50%;
+}
+.images img{
+    width: 33.33%;
+}
+.novedades{
+    display: flex;
+    width: 100%;
+}
+.novedades>h2{
+    width: 33.33%;
+}
+.novedades article{
+    width: 33.33%;
+    margin-left: 20px;
+}
