@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.fond {
+    width: 95%;
+    border-radius: 25px;
+
+    margin: 0px auto;
+    background: linear-gradient(to bottom,
+            white 0%,
+            white 1%,
+            rgb(19, 71, 129) 1%,
+            rgb(19, 71, 129) 1.5%,
+            white 1.5%,
+            white 18%,
+
+            rgb(19, 71, 129) 18%,
+            rgb(19, 71, 129) 42%,
+            white 42%,
+            white 47%,
+            rgb(19, 71, 129) 47%,
+            rgb(19, 71, 129) 100%);
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.top {
+    padding-top: 10px;
+    justify-content: space-between
+}
+
+/*letras top*/
+.top div:first-child p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    color: rgb(19, 71, 129);
+}
+
+.top div:first-child p:first-child {
+    font-size: 280%;
+}
+
+.top div:first-child p:last-child {
+    font-size: 95%;
+}
+
+.top div:last-child {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+/*menu*/
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner div {
+    padding: 5px;
+    margin-left: 2px;
+    color: gray;
+    font-family: 'Anuphan', sans-serif;
+}
+
+.banner div:last-child form input {
+    font-family: 'Anuphan', sans-serif;
+    text-decoration: none;
+    font-size: 110%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(109, 186, 70);
+    border-color: rgb(109, 186, 70);
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}
+
+/*articulo*/
+
+article div:first-child img {
+    width: 90%;
+    margin: auto;
+}
+
+.articulo {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.articulo div:first-child p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+}
+
+.articulo div:first-child p:first-child {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.articulo div:first-child P:nth-child(2) {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.botones {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.botones div:first-child form input {
+    text-decoration: none;
+    width: auto;
+    font-size: 100%;
+    padding: 20px 45px 20px 45px;
+    color: white;
+    background-image: linear-gradient(rgb(109, 186, 70), rgb(10, 64, 39));
+    text-align: center;
+    border-radius: 10px;
+}
+
+.botones div:last-child form input {
+    text-decoration: none;
+    width: auto;
+    font-size: 95%;
+    padding: 11px 17px 11px 17px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 577px) {
+    .fond {
+        width: 95%;
+        border-radius: 25px;
+
+        margin: 0px auto;
+        background: linear-gradient(to bottom,
+                white 0%,
+                white 1%,
+                rgb(19, 71, 129) 1%,
+                rgb(19, 71, 129) 1.5%,
+                white 1.5%,
+                white 36%,
+                rgb(19, 71, 129) 36%,
+                rgb(19, 71, 129) 88%,
+                white 88%,
+                white 100%);
+    }
+
+    article {
+        flex-wrap: nowrap;
+    }
+
+    .foto,
+    .articulo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+    .articulo div:first-child p {
+        font-size: 2.5vw
+    }
+
+    .botones {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    .botones div:first-child form input {
+        font-size: 1.5vw;
+        padding: 12px 35px 12px 35px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+    .botones div:last-child form input {
+        font-size: 1.5vw;
+        border-radius: 8px;
+        background-image: linear-gradient(rgb(109, 186, 70), rgb(10, 64, 39));
+        color: white;
+        padding: 7px 12px 7px 12px;
+        margin-top: 20px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}
