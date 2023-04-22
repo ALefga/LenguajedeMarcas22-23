@@ -1,0 +1,99 @@
+* {
+    
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+h1,h2,h3,h4,p,div{
+    font-family: Righteous;
+}
+.verde{
+    color: green;
+}
+.main_text{
+    padding: 0px 20px 0px 20px;
+}
+header.verde{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_item{
+    display: none;
+}
+main{
+    display: flex;
+    flex-flow: row wrap ;
+    flex-direction:row-reverse;
+    justify-content:flex-end ;
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+img{
+    width: 25%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hidden{
+    display: none;
+}
+@media screen and (min-width: 577px){
+    .icon{
+        display: none;
+    }
+    .verde nav{
+        display: flex;
+    }
+    .menu_item{
+        padding: 10px;
+    }
+    main{
+        flex-flow: row;
+        flex-direction: initial;
+    }
+    .main_text{
+        width: 50%;
+    }
+    .images{
+        width: 50%;
+    }
+    main section.main_text{
+        padding: 0px 10px;
+    }
+    .images img{
+        width: 50%;
+    }
+    .main_text div:last-child{
+        padding-bottom: 50px;
+    }
+    section.novedades{
+        display: flex;
+        justify-content: space-between;
+    }
+    section.novedades h2,article{
+        width:24%;
+    }
+    section.novedades h4{
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 992px){
+    .menu_item{
+        display: inherit;
+    }
+    .hidden{
+        display: inherit;
+    }
+    main{
+        flex-direction: row-reverse;    
+    }
+     section.images img{
+        width: 33%; 
+    } 
+    section p{
+        font-size:1vw
+    }
+}
