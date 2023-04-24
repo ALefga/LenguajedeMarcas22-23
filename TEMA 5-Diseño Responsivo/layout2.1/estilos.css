@@ -211,3 +211,86 @@ span {
     }
 
 }
+
+@media screen and (min-width: 992px) {
+    .fond {
+        width: 95%;
+        border-radius: 25px;
+
+        margin: 0px auto;
+        background: linear-gradient(to bottom,
+                white 0%,
+                white 1%,
+                rgb(19, 71, 129) 1%,
+                rgb(19, 71, 129) 1.5%,
+                white 1.5%,
+                white 22%,
+                rgb(19, 71, 129) 22%,
+                rgb(19, 71, 129) 87%,
+                white 87%,
+                white 100%);
+    }
+
+    .top {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        justify-content: space-between
+    }
+
+    .top div:first-child p {
+        font-family: 'Inconsolata', monospace;
+        font-weight: 900;
+        color: rgb(19, 71, 129);
+    }
+
+    .top div:first-child p:first-child {
+        font-size: 280%;
+    }
+
+    .top div:first-child p:last-child {
+        font-size: 95%;
+    }
+
+    .banner div:last-child form input {
+        display: inherit;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+    .botones{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .botones div:first-child form input{
+        text-decoration: none;
+        width: auto;
+        font-size: 100%;
+        padding: 20px 45px 20px 45px;
+        color: white;
+        background-image:linear-gradient(rgb(109, 186, 70),rgb(10, 64, 39));
+        text-align: center;
+        border-radius: 10px ;
+        margin-right: 20px;
+    }
+    
+    .botones div:last-child form input{
+        width: auto;
+        font-size: 95%;
+        padding: 11px 17px 11px 17px;
+        color: white;
+        background-color: transparent;
+        text-align: center;
+        border-radius: 8px ;
+        margin-top: 8px;
+        background-image:none;
+    }
+    .articulo div:first-child p {
+        
+    }
+    
+}
