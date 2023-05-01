@@ -216,7 +216,7 @@ span {
     .fond {
         width: 95%;
         border-radius: 25px;
-
+        height: 550px;
         margin: 0px auto;
         background: linear-gradient(to bottom,
                 white 0%,
@@ -224,10 +224,10 @@ span {
                 rgb(19, 71, 129) 1%,
                 rgb(19, 71, 129) 1.5%,
                 white 1.5%,
-                white 22%,
-                rgb(19, 71, 129) 22%,
-                rgb(19, 71, 129) 87%,
-                white 87%,
+                white 20%,
+                rgb(19, 71, 129) 20%,
+                rgb(19, 71, 129) 96%,
+                white 96%,
                 white 100%);
     }
 
@@ -243,15 +243,6 @@ span {
         font-weight: 900;
         color: rgb(19, 71, 129);
     }
-
-    .top div:first-child p:first-child {
-        font-size: 280%;
-    }
-
-    .top div:first-child p:last-child {
-        font-size: 95%;
-    }
-
     .banner div:last-child form input {
         display: inherit;
     }
@@ -264,6 +255,7 @@ span {
         margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
     
     .botones div:first-child form input{
@@ -289,8 +281,17 @@ span {
         margin-top: 8px;
         background-image:none;
     }
-    .articulo div:first-child p {
-        
+    .top div:last-child {
+        display: flex;
+        align-items: center;
     }
-    
+    .articulo{
+        margin-top: 60px;
+    }
+    .articulo div p:first-child,.articulo div p:nth-child(2){
+        font-size:60px;
+    }
+    .articulo div p:last-child,span{
+        font-size:x-large;
+    }
 }
