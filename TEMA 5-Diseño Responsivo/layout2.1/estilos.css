@@ -24,6 +24,9 @@
             rgb(19, 71, 129) 100%);
 }
 
+.banner div:hover{
+    background-color: rgb(197, 193, 193);
+}
 .contenedor {
     width: 90%;
     margin: 0px auto;
