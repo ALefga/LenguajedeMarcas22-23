@@ -1,0 +1,14 @@
+.red,.yellow,.blue{
+    height: 300px;
+}
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
