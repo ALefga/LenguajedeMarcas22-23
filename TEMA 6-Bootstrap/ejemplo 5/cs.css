@@ -1,0 +1,22 @@
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.izquierda{
+    height: 100px;
+}
+.derecha{
+    height: 150px;
+}
