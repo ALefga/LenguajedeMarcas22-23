@@ -1,11 +1,14 @@
 .logo21{
     font-family: 'Inconsolata', monospace;
     color: rgb(19, 71, 129);
+    font-weight: 900;
 }
 hr{
     color: rgb(19, 71, 129);
 }
 .contenedorUwU{
+    width: 95%;
+    border-radius: 25px;
     background: linear-gradient(
         to bottom,
         white 0%,
@@ -13,10 +16,20 @@ hr{
         rgb(19, 71, 129) 1%,
         rgb(19, 71, 129) 1.5%,
         white 1.5%,
-        white 22%,
-        rgb(19, 71, 129) 22%,
+        white 26%,
+        rgb(19, 71, 129) 26%,
         rgb(19, 71, 129) 87%,
         white 87%,
         white 100%
     );
+}
+.articulo1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+}
+.articulo2{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:bold;
 }
