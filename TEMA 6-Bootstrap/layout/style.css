@@ -1,0 +1,22 @@
+.logo21{
+    font-family: 'Inconsolata', monospace;
+    color: rgb(19, 71, 129);
+}
+hr{
+    color: rgb(19, 71, 129);
+}
+.contenedorUwU{
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 1%,
+        rgb(19, 71, 129) 1%,
+        rgb(19, 71, 129) 1.5%,
+        white 1.5%,
+        white 22%,
+        rgb(19, 71, 129) 22%,
+        rgb(19, 71, 129) 87%,
+        white 87%,
+        white 100%
+    );
+}
